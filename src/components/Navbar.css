@@ -1,0 +1,27 @@
+.bg-myRed{
+    background-color: crimson;
+  }
+  
+  .content{
+    padding: 12px;
+    height: 3000px;
+  }
+  
+  .coloring{
+    color: black;
+  }
+
+img {
+    margin-right: 15px;
+}
+
+li {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+li Link {
+  text-decoration: none;
+  color: white;
+}

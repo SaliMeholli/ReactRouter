@@ -1,0 +1,51 @@
+.about {
+    height: 70vh;
+    text-align: center;
+}
+.about h1 {
+    border-bottom: 1px solid black;
+    display: inline-block;
+    justify-content: center;
+    font-size: 45px;
+    margin-top: 50px;
+}
+
+.about p {
+    align-items: center;
+    text-align: center;
+    color: #789395;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.about-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.about-container img{
+    width: 500px;
+    height: 400px;
+}
+
+.about-container p {
+    text-align: center;
+    width:500px;
+}
+
+@media (max-width: 888px) {
+    .about-container {
+        display: block;
+        text-align: center;
+    }
+    
+    .about-container p {
+        width: auto;
+        margin-top: 30px;
+    }
+}
+
+
+.letUs {
+    margin-top: 150px;
+}

@@ -1,0 +1,30 @@
+.home {
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+}
+.home h1 {
+    text-align: center;
+    color: #789395;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home p {
+    text-align: center;
+    font-size: 19px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+
+.home .container {
+    display: flex;
+    justify-content: center;
+}
+.container img {
+    height: 100%;
+    width: 120%;
+    margin-right: -25px;
+}
