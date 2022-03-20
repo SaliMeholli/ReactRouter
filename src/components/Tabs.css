@@ -19,7 +19,34 @@
     word-break: break-all;
     border: 1px solid rgba(0, 0, 0, 0.274);
   }
-  
+  @media (max-width: 520px) {
+    .container1 {
+      width: 400px;
+      height: 300px;
+   
+    }
+  }
+  @media (max-width: 412px) {
+    .container1 {
+      width: 350px;
+      height: 300px;
+   
+    }
+  }
+  @media (max-width: 350px) {
+    .container1 {
+      width: 300px;
+      height: 300px;
+   
+    }
+  }
+  @media (max-width: 315px) {
+    .container1 {
+      width: 250px;
+      height: 300px;
+   
+    }
+  }
   .bloc-tabs {
     display: flex;
   }

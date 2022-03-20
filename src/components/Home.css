@@ -1,17 +1,22 @@
+/* font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
 .home {
-    height: 80vh;
+    height: 120vh;
     width: 100%;
     text-align: center;
 }
-.home h1 {
+.home .HomeTitle h1 {
     text-align: center;
-    color: #789395;
+    color: #4b84ff;
     margin-top: 50px;
     margin-bottom: 50px;
     font-family: 'Roboto', sans-serif;
 }
 
-.home p {
+.home .HomeTitle p {
     text-align: center;
     font-size: 19px;
     color: black;
@@ -20,6 +25,7 @@
 }
 
 .home .container {
+    height: 60vh;
     display: flex;
     justify-content: center;
 }
@@ -27,4 +33,167 @@
     height: 100%;
     width: 120%;
     margin-right: -25px;
+}
+
+.secondSectionHome {
+    height: auto;
+    margin-top: 100px;
+    background-color: #3d5a80;
+    padding: 100px 20px;
+    display: block;
+    text-align: center;
+}
+.secondSectionHome h1 {
+    display: inline-block;
+    border-bottom: 5px solid rgb(255, 182, 45);
+    color: white;
+    padding-bottom:10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.secondSectionHome p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    word-spacing: 2px;
+    margin: 50px 100px;
+}
+.card {
+    height: 400px;
+    margin: 70px 100px;
+    display: flex;
+    justify-content: center;
+}
+.card h1 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+   padding: 50px 0;
+}
+.card div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icon1, .icon2 {
+    font-size: 100px;
+    color: rgb(255, 190, 78);
+    margin: 30px;
+    cursor: pointer;
+} 
+.icon1:hover, .icon2:hover {
+    font-size: 100px;
+    color: rgb(228, 144, 0);
+    margin: 30px;
+    cursor: pointer;
+    transition: all .3s;
+} 
+
+
+@media (max-width: 860px) {
+    .secondSectionHome p {
+        font-size: 17px;
+        margin: 50px 0;
+    }
+}
+
+@media (max-width: 520px) {
+    .card {
+        height: auto;
+        width: 300px;
+        margin: 0 20px;
+    }
+    .card div{
+        display: block;
+    }
+}
+
+
+.thirdSectionHome {
+    height: 50vh;
+}
+.thirdSectionHome h1 {
+    color: blue;
+    margin: 100px 0;
+    font-family: 'Roboto', sans-serif;
+}
+.skills-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px;
+}
+
+.skills-container div {
+    height: 200px;
+    width: 350px;
+    background-color: red;
+    margin: 0 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    color: #539eff;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.skills-container div:nth-child(1) {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(images/office1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.skills-container div:nth-child(1):hover {
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(images/office1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all .3s;
+}
+.skills-container div:nth-child(2) {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(images/office2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.skills-container div:nth-child(2):hover {
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(images/office2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all .5s;
+}
+.skills-container div:nth-child(3) {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(images/office3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.skills-container div:nth-child(3):hover {
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(images/office3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all .5s;
+}
+.skills-container div:nth-child(4) {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(images/office4.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.skills-container div:nth-child(4):hover {
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(images/office4.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all .5s;
+}
+.icon33 {
+    margin-left: 50px;
+    color: orange;
+    cursor: pointer;
+    font-size: 30px;
+}
+.icon33:hover {
+    color: rgba(255, 166, 0, 0.425);
+    cursor: pointer;
+    font-size: 30px;
 }

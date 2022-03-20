@@ -1,5 +1,5 @@
 .about {
-    height: 70vh;
+    height: 80vh;
     text-align: center;
 }
 .about h1 {
@@ -19,7 +19,6 @@
 }
 
 .about-container {
-    margin-top: 50px;
     display: flex;
     justify-content: space-around;
 }
@@ -48,4 +47,27 @@
 
 .letUs {
     margin-top: 150px;
+}
+
+
+.about-container img {
+
+}
+
+@media (max-width: 520px) {
+    .about-container img {
+        width: 450px;
+    }
+}
+
+@media (max-width: 460px) {
+    .about-container img {
+        width: 350px;
+    }
+}
+
+@media (max-width: 330px) {
+    .about-container img {
+        width: 300px;
+    }
 }
